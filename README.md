@@ -8,7 +8,7 @@ Este projeto é uma calculadora funcional desenvolvida em Python utilizando a bi
 * **Limpeza do Visor:** Botão `C` funcional para reiniciar a expressão atual.
 
 ## Tecnologias Utilizadas
-* **Python 3.x**
+* **Python 3.14.3**
 * **Tkinter** (Biblioteca Python para interfaces gráficas)
 
 
