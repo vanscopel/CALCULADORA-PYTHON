@@ -1,27 +1,29 @@
-# Calculadora com Interface Gráfica em Python 🧮
-Este projeto é uma calculadora funcional desenvolvida em Python utilizando a biblioteca Tkinter para a interface gráfica. O diferencial deste projeto é que ele não utiliza a função nativa `eval()` do Python para resolver as contas mas sim, possui um algoritmo próprio de análise sintática para processar e calcular as expressões matemáticas.
+🧮 Calculadora com Interface Gráfica em Python
 
-## Funcionalidades
-* **Interface Visual Própria:** Criada com Tkinter e contendo visor responsivo e disposição dos botões em grid.
-* **Respeito à Precedência Matemática:** O motor de cálculo processa multiplicações (`*`) e divisões (`/`) antes de somas (`+`) e subtrações (`-`).
-* **Tratamento de Erros:** Exibe uma mensagem de "ERRO" na tela se o usuário tentar realizar uma operação inválida, evitando o fechamento inesperável da aplicação.
-* **Limpeza do Visor:** Botão `C` funcional para reiniciar a expressão atual.
+Este projeto é uma calculadora desktop desenvolvida em Python com interface gráfica utilizando Tkinter. Diferente de uma calculadora tradicional, este projeto conta com um motor próprio para interpretação e cálculo de expressões matemáticas.
 
-## Tecnologias Utilizadas
-* **Python 3.14.3**
-* **Tkinter** (Biblioteca Python para interfaces gráficas)
+🚀 Funcionalidades:
+Interface gráfica intuitiva com Tkinter
+Entrada de expressões matemáticas via botões
+Suporte a operações básicas: soma, subtração, multiplicação e divisão
+Respeito à precedência matemática (*/ antes de +-)
+Tratamento de erros com exibição de mensagem "Erro"
+Botão de limpeza para reset da expressão
 
+🧠 Diferencial técnico:
+O projeto não utiliza a função eval() do Python.
+Em vez disso, implementa um algoritmo próprio para:
+Separação de números e operadores
+Processamento de precedência matemática
+Cálculo manual da expressão
 
-## 💻 Como Executar o Projeto
-Como o Tkinter já vem instalado por padrão no Python na maioria dos sistemas, basta rodar o arquivo principal.
+🛠️ Tecnologias utilizadas:
+Python 3.14.3
+Tkinter (GUI)
 
-1. Clone o repositório:
-   bash
-    git clone https://github.com/vanscopel/CALCULADORA-PYTHON.git
+🎯 Objetivo do projeto:
+Praticar desenvolvimento de aplicações desktop, lógica de programação e criação de algoritmos para processamento de expressões matemáticas.
 
-2. Acesse a pasta do projeto:
-   bash
-    cd CALCULADORA-PYTHON
-
-3. Execute o script:
-    python calculadora.py
+▶️ Como executar:
+Basta executar o arquivo principal:
+python calculadora.py
